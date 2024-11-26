@@ -1,4 +1,10 @@
-import React, { Fragment } from "react";
+import React, { Fragment } from "react";/* The line `import CheckoutSteps from
+"../Cart/CheckoutSteps";` is importing the `CheckoutSteps`
+component from the file located at "../Cart/CheckoutSteps".
+This component is likely used to display a step-by-step
+checkout process for the user, indicating which step of the
+checkout process they are currently on. */
+
 import CheckoutSteps from "../Cart/CheckoutSteps";
 import { useSelector } from "react-redux";
 import MetaData from "../layout/MetaData";
